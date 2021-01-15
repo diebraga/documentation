@@ -396,7 +396,7 @@ git commit -m "Update database config"
 `Path: ./my-project/`
 
 ```bash
-git push heroku main
+git push heroku master
 ```
 
 The deployment may take a few minutes. At the end, logs will display the url of your project (e.g. `https://mighty-taiga-80884.herokuapp.com`). You can also open your project using the command line:
@@ -428,7 +428,7 @@ As you continue developing your application with Strapi, you may want to use [ve
 ```bash
 git add .
 git commit -am "Changes to my-project noted"
-git push heroku main
+git push heroku master
 heroku open
 ```
 
